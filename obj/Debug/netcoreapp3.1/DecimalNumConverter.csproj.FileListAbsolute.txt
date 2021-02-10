@@ -1,0 +1,11 @@
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\bin\Debug\netcoreapp3.1\DecimalNumConverter.exe
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\bin\Debug\netcoreapp3.1\DecimalNumConverter.deps.json
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\bin\Debug\netcoreapp3.1\DecimalNumConverter.runtimeconfig.json
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\bin\Debug\netcoreapp3.1\DecimalNumConverter.runtimeconfig.dev.json
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\bin\Debug\netcoreapp3.1\DecimalNumConverter.dll
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\bin\Debug\netcoreapp3.1\DecimalNumConverter.pdb
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\obj\Debug\netcoreapp3.1\DecimalNumConverter.csprojAssemblyReference.cache
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\obj\Debug\netcoreapp3.1\DecimalNumConverter.AssemblyInfoInputs.cache
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\obj\Debug\netcoreapp3.1\DecimalNumConverter.AssemblyInfo.cs
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\obj\Debug\netcoreapp3.1\DecimalNumConverter.dll
+C:\Users\Antony\Desktop\practise_\main C#\DecimalNumConverter\obj\Debug\netcoreapp3.1\DecimalNumConverter.pdb
