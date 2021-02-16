@@ -7,9 +7,11 @@ namespace DecimalNumConverter
     {
         static void Main(string[] args)
         {
+            Console.Title = "Decimal Number Converter";
             while(true)
             {
-                Console.WriteLine("\n Welcome to Decimal number converter\n");
+                show_intro();
+                Console.WriteLine("\n Welcome to Decimal number converter\n The program converts a Decimal number into Binary, Hexadecimal or Octal \n");
                 Console.WriteLine("Enter number: ");
 
                 int number = set_Integer(Console.ReadLine());
@@ -28,16 +30,16 @@ namespace DecimalNumConverter
                         switch (option)
                         {
                             case 1:
-                                Console.WriteLine(number + " To Binary: " + convertToBinary(number));
+                                Console.WriteLine("\n" + number + " To Binary: " + convertToBinary(number));
                                 break;
                             case 2:
-                                Console.WriteLine(number + " To Hexadecimal: " + convertToHexa(number));
+                                Console.WriteLine("\n" + number + " To Hexadecimal: " + convertToHexa(number));
                                 break;
                             case 3:
-                                Console.WriteLine(number + " To Octal: " + convertToOctal(number));
+                                Console.WriteLine("\n" + number + " To Octal: " + convertToOctal(number));
                                 break;
                             case 4:
-                                Console.WriteLine(number + " Binary value: " + convertToBinary(number) +
+                                Console.WriteLine("\n" + number + " Binary value: " + convertToBinary(number) +
                                 "\n" + number + " Hexadecimal value: " + convertToHexa(number) +
                                 "\n" + number + " Octal value: " + convertToOctal(number)
                                 );
@@ -66,6 +68,7 @@ namespace DecimalNumConverter
                 }         
                 else
                 {
+                    Console.Clear();
                     continue;
                 } 
             }
@@ -73,11 +76,25 @@ namespace DecimalNumConverter
 
         static void show_menu() // Method to display the menu
         {
-            Console.WriteLine("Chose an Operation");
+            Console.WriteLine("\nChose an Operation");
             Console.WriteLine("1. Convert to Binary");
             Console.WriteLine("2. Convert to Hexadecimal");
             Console.WriteLine("3. Convert to Octal");
             Console.WriteLine("4. Convert to all");
+        }
+
+        static void show_intro() // Method to display the menu
+        {
+            Console.ForegroundColor = ConsoleColor.Green; 
+
+            Console.WriteLine( "_______         ___      ___     ________");
+            Console.WriteLine("|  ____  \\      /  \\    /  /   /  _______\\");
+            Console.WriteLine("| |    \\  \\    /    \\  /  /   |  /");
+            Console.WriteLine("| |     |  |  /  /\\  \\/  /    | |");
+            Console.WriteLine("| |____/  /  /  /  \\    /     |  \\________");
+            Console.WriteLine("|________/  /__/    \\__/       \\_________/");
+
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         static int set_Integer(string num) // Method to convert user's input into double
